@@ -1,0 +1,21 @@
+- name: Favorites
+  columns:
+    - size: full
+      widgets:
+        - type: rss
+          title: News
+          limit: 40
+          collapse-after: 16
+          cache: 12h
+          feeds:
+            # News JS / Web
+            - url: https://web.dev/feed.xml
+              title: web.dev
+
+            # Blogs
+            - url: https://feeds.megaphone.fm/FSI1483080183
+              title: syntax.fm
+            - url: https://antfu.me/feed.xml
+              title: antfu
+            - url: https://substack.com/@simonw?utm_source=global-search
+              title: simonw

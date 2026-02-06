@@ -1,0 +1,28 @@
+- name: Securite
+  columns:
+    - size: full
+      widgets:
+        - type: rss
+          title: Securite Web
+          limit: 40
+          collapse-after: 16
+          cache: 12h
+          feeds:
+            - url: https://www.cisa.gov/cybersecurity-advisories/rss.xml
+              title: CISA
+            - url: https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml
+              title: NVD
+            - url: https://portswigger.net/blog/rss
+              title: PortSwigger
+            - url: https://blog.cloudflare.com/rss/
+              title: Cloudflare
+            - url: https://www.zdnet.com/topic/security/rss.xml
+              title: ZDNet Security
+            - url: https://www.reddit.com/r/netsec/.rss
+              title: r/netsec
+            - url: https://www.reddit.com/r/websecurity/.rss
+              title: r/websecurity
+            - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC0e3QhIYukixgh5VVpKHH9Q
+              title: LiveOverflow
+            - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYEGc4VxV0s7ihBfgVj7O-w
+              title: OWASP

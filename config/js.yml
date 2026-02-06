@@ -1,0 +1,51 @@
+- name: JS
+  columns:
+    - size: full
+      widgets:
+        - type: rss
+          title: JS / Web
+          limit: 40
+          collapse-after: 16
+          cache: 12h
+          feeds:
+            # News JS / Web
+            - url: https://javascriptweekly.com/rss/
+              title: JavaScript Weekly
+            - url: https://www.smashingmagazine.com/feed/
+              title: Smashing
+            - url: https://web.dev/feed.xml
+              title: web.dev
+            - url: https://dev.to/feed/tag/javascript
+              title: dev.to JS
+
+            # Vite / Vue / Nuxt / React
+            - url: https://vitejs.dev/blog/feed.xml
+              title: Vite
+            - url: https://blog.vuejs.org/feed.xml
+              title: Vue
+            - url: https://nuxt.com/blog/feed.xml
+              title: Nuxt
+            - url: https://react.dev/rss.xml
+              title: React
+
+            # Changelogs GitHub (Atom)
+            - url: https://github.com/vitejs/vite/releases.atom
+              title: Vite Releases
+            - url: https://github.com/vuejs/core/releases.atom
+              title: Vue Releases
+            - url: https://github.com/nuxt/nuxt/releases.atom
+              title: Nuxt Releases
+            - url: https://github.com/facebook/react/releases.atom
+              title: React Releases
+
+            # Reddit
+            - url: https://www.reddit.com/r/javascript/.rss
+              title: r/javascript
+            - url: https://www.reddit.com/r/webdev/.rss
+              title: r/webdev
+
+            # Videos (YouTube RSS)
+#            - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA
+#              title: Fireship
+#            - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuERMmlnqo4oq8vwUpg
+#              title: The Net Ninja
