@@ -26,3 +26,5 @@
               title: LiveOverflow
             - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYEGc4VxV0s7ihBfgVj7O-w
               title: OWASP
+            - url: https://portswigger.net/research/rss
+              title: portswigger
